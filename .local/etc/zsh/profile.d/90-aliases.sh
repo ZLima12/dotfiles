@@ -1,0 +1,10 @@
+alias grep="grep --color=auto"
+alias ip="ip -color=auto"
+alias ls="ls -lhavF --color=auto"
+alias sudo="sudo "
+alias sx="sx > /dev/null 2>&1"
+alias watch="watch "
+alias watchsync="watch -n .5 grep -e Dirty: -e Writeback: /proc/meminfo"
+alias wget="wget --hsts-file ${XDG_CACHE_HOME}/wget/hsts"
+alias xclip="xclip -selection c"
+alias youtube-dl='youtube-dl --external-downloader aria2c --external-downloader-args "-x 16 -s 16 -k 1M"'
