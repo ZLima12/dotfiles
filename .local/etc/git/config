@@ -1,0 +1,19 @@
+[user]
+	name = John A. Leuenhagen
+	email = john@zlima12.com
+#	signingkey = <Insert key ID here>
+
+[core]
+	editor = nvim
+
+[commit]
+	gpgsign = true
+
+[diff]
+	tool = meld
+
+[difftool]
+	prompt = false
+
+[difftool "meld"]
+	cmd = meld "$LOCAL" "$REMOTE"
