@@ -1,1 +1,1 @@
-#eval `keychain --agents ssh,gpg --noask --quiet --eval <insert names of ssh or gpg keys here>`
+#eval `keychain --agents ssh,gpg --dir "$XDG_DATA_HOME/keychain" --noask --quiet --eval <insert names of ssh or gpg keys here>`
