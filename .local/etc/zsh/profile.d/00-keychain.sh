@@ -1,1 +1,1 @@
-#eval `keychain --agents ssh,gpg --eval <insert names of ssh or gpg keys here>`
+#eval `keychain --agents ssh,gpg --noask --quiet --eval <insert names of ssh or gpg keys here>`
