@@ -6,4 +6,4 @@ then
 	exit 1;
 fi
 
-stow --ignore='\.git\/' --ignore='stow.sh' -d "$(dirname "$(pwd)")" -t "$HOME" "$(basename "$(pwd)")"
+stow --ignore='\.git\/' --ignore='stow.sh' --no-folding -d "$(dirname "$(pwd)")" -t "$HOME" "$(basename "$(pwd)")"
