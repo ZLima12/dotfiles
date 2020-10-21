@@ -9,6 +9,9 @@
 [commit]
 	gpgsign = true
 
+[pull]
+	ff = only
+
 [diff]
 	tool = meld
 
