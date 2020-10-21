@@ -18,3 +18,5 @@ elif [ "$LOCAL" = "$BASE" ]; then
 elif [ "$REMOTE" = "$BASE" ]; then
 	: # New unpushed commits.
 fi
+
+cd - > /dev/null 2>&1
