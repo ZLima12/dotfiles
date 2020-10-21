@@ -1,4 +1,4 @@
-HOME                  DEFAULT="/home/@{PAM_USER}"
+HOME                  DEFAULT="/root"
 
 # XDG Base Directories
 ### System Directories

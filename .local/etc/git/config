@@ -1,6 +1,6 @@
 [user]
-	name = John A. Leuenhagen
-	email = john@zlima12.com
+#	name = ...
+#	email = ...
 #	signingkey = <Insert key ID here>
 
 [core]
