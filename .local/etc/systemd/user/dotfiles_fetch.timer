@@ -1,0 +1,10 @@
+[Unit]
+Description= Daily fetch of dotfiles repository
+
+[Timer]
+OnCalendar = *-*-* 07:00:00
+AccuracySec = 1h
+Persistent = true
+
+[Install]
+WantedBy = network-online.target
