@@ -19,6 +19,7 @@ LD_LIBRARY_PATH       DEFAULT="${XDG_LIB_HOME}"
 # Guiding Programs to XDG Directories
 _JAVA_OPTIONS         OVERRIDE="-Djava.util.prefs.systemRoot=${XDG_CONFIG_HOME}/java -Djava.util.prefs.userRoot=${XDG_CONFIG_HOME}/java/.userPrefs"
 ANDROID_SDK_HOME      OVERRIDE="${XDG_CONFIG_HOME}/android"
+DISTCC_DIR            OVERRIDE="${XDG_DATA_HOME}/distcc"
 GNUPGHOME             OVERRIDE="${XDG_DATA_HOME}/gnupg"
 LESSHISTFILE          OVERRIDE="/dev/null"
 NODE_REPL_HISTORY     OVERRIDE="${HOME}/.local/var/node/repl_history"
