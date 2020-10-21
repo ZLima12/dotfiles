@@ -34,4 +34,4 @@ SCREENSHOT_DIR        OVERRIDE="${HOME}/Pictures/Screenshots"
 # fcitx input
 GTK_IM_MODULE         OVERRIDE=fcitx
 QT_IM_MODULE          OVERRIDE=fcitx
-XMODIFIERS            OVERRIDE=@im=fcitx
+XMODIFIERS            OVERRIDE=\@im=fcitx
