@@ -1,8 +1,8 @@
 [Unit]
-Description= Daily fetch of dotfiles repository
+Description = Daily fetch of dotfiles repository
 
 [Timer]
-OnCalendar = *-*-* 07:00:00
+OnCalendar = *-*-* 18:00:00
 AccuracySec = 1h
 Persistent = true
 
