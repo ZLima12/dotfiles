@@ -4,4 +4,4 @@ Requires = network-online.target
 
 [Service]
 Type = oneshot
-ExecStart = %h/.local/bin/dotfiles_fetch.sh
+ExecStart = /bin/sh %h/.local/bin/dotfiles_fetch.sh
