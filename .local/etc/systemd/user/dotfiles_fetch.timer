@@ -7,4 +7,4 @@ AccuracySec = 1h
 Persistent = true
 
 [Install]
-WantedBy = network-online.target
+WantedBy = default.target
