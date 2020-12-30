@@ -20,3 +20,11 @@
 
 [difftool "meld"]
 	cmd = meld "$LOCAL" "$REMOTE"
+
+[sendemail]
+	smtpserver = smtp.zlima12.com
+	smtpuser = john
+	smtpencryption = tls
+	smtpserverport = 587
+	suppresscc = author
+	from = \"John A. Leuenhagen\" <john@zlima12.com>
