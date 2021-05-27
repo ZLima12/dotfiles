@@ -19,5 +19,5 @@ let g:syntastic_cpp_compiler_options = ' -std=c99'
 let g:syntastic_c_config_file = '.syntastic_c_config'
 
 let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = ' -std=c++17'
+let g:syntastic_cpp_compiler_options = ' -std=c++20'
 let g:syntastic_cpp_config_file = '.syntastic_cpp_config'
