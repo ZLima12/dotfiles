@@ -28,3 +28,6 @@
 	smtpserverport = 587
 	suppresscc = author
 	from = \"John A. Leuenhagen\" <john@zlima12.com>
+
+[init]
+	defaultBranch = master
