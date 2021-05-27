@@ -1,0 +1,2 @@
+#!/bin/sh
+maim --select --hidecursor --format=png --quality=10 > "${SCREENSHOT_DIR}/$(date +%F_%H%M%S).png"
