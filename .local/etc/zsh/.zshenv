@@ -1,7 +1,5 @@
 # Default Programs
 export BROWSER="qutebrowser"
-export CC="clang"
-export CXX="clang++"
 export DIFFPROG="meld" # Used by pacdiff, at least.
 export EDITOR="nvim"
 export TERMINAL="st"
