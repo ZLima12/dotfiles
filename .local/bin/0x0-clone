@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ $# -ne 1 ];
+then
+	echo 'Please specify exactly one parameter, the URL to be cloned.'
+	exit 1;
+fi
+
+curl -F"url=$1" 'https://0x0.st'
