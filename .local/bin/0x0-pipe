@@ -1,0 +1,27 @@
+#!/bin/sh
+
+trap 'cancel' 2 3 6 15
+
+cleanup()
+{
+	rm -f "$SUBMISSION_TMP_FILE";
+}
+
+cancel()
+{
+	cleanup;
+	exit 0;
+}
+
+SUBMISSION_TMP_FILE="$(mktemp '/tmp/0x0-piped-submission-XXXXX')";
+if [ $? -ne 0 ];
+then
+	echo "Failed to generate a good temp file; exiting.";
+	exit 1;
+fi
+
+cat > "$SUBMISSION_TMP_FILE";
+
+0x0-upload "$SUBMISSION_TMP_FILE";
+
+cleanup;
